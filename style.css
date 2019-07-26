@@ -1,0 +1,74 @@
+body {
+  background-color: green;
+}
+h1 {
+  text-align: center;
+  position: relative;
+  right: 9px;
+  font-size: 26px
+}
+h2 {
+  text-align: center
+}
+#bet {
+  display: block;
+  width: 100px;
+  position: relative;
+  bottom: 90px;
+  right: 250px;
+  margin: auto;
+}
+#betIn {
+  width: 50px
+}
+#pActions {
+  text-align: center;
+  width: 400px;
+  position: relative;
+  margin: auto;
+  right: 9px;
+}
+#hit {
+  position: relative;
+  right: 10px;
+  font-size: 25px;
+  width: 80px;
+}
+#hit:hover:enabled {
+  opacity:0.8
+}
+#stand {
+  position: relative;
+  left: 10px;
+  font-size:25px;
+  width: 80px
+}
+#stand:hover:enabled {
+  opacity:0.8
+}
+img {
+  height:100px
+}
+#dealerCards {
+  text-align: center;
+}
+#playerCards {
+  text-align: center;
+}
+#again {
+    display:none;
+    margin:auto;
+    font-size: 30px;
+    position: relative;
+    right: 9px;
+    bottom: 125px
+}
+#again:hover:enabled {
+  opacity: 0.8
+}
+#result {
+  position: relative;
+  right: 9px;
+  font-size: 18px;
+  color: transparent
+}

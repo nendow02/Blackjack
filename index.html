@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Nathan</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+  <body>
+    <h1 id="dCount">0</h1>
+    <div id="dealerCards">
+       <img id ="dLeft" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-2_1024x1024.png?v=1535755695">
+    <img id = "dRight"src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-2_1024x1024.png?v=1535755695">
+       <img id="dExtra1" src="">
+        <img id="dExtra2" src="">
+        <img id="dExtra3" src="">
+        <img id="dExtra4" src="">
+      </div>
+    <h2 id="result"> placeholder </h2>
+      <div id="playerCards">
+        <img id="pLeft" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-2_1024x1024.png?v=1535755695">
+        <img id="pRight" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-2_1024x1024.png?v=1535755695">
+        <img id="pExtra1" src="">
+        <img id="pExtra2" src="">
+        <img id="pExtra3" src="">
+        <img id="pExtra4" src="">
+        <h1 id="pCount">0</h1>
+        <div id="pActions">
+      <button id="hit" onclick="hitFunction()" disabled=true>Hit</button>
+      <button id="stand" onClick="standFunction()" disabled=true>Stand</button>
+    </div>
+      </div>
+    <div id="bet">
+    <h2 id="money">$100</h2>
+    <input id="betIn">
+    <button id="betBut" onClick="betButton()">Bet</button>
+    </div>
+    <button id="again" onClick="againButton()"> Play Again?</button>
+    <body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
