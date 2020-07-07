@@ -173,7 +173,6 @@ extra++
 }
 
 function betButton() {
-  //try to make a double down button
   bet = document.getElementById("betIn").value;
   bet = parseInt(bet)
   if (bet > money || bet < 1 || Number.isInteger(bet) == false) {
@@ -260,7 +259,6 @@ function standFunction() {
   }
   add()
   endGame()
-  //Try to get delay in dealer card turns
 }
 
 function againButton() {
