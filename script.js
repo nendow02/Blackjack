@@ -1,82 +1,92 @@
-let aceClub = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Playing_card_club_A.svg/1024px-Playing_card_club_A.svg.png"
-let twoClub = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Playing_card_club_2.svg/1024px-Playing_card_club_2.svg.png"
-let threeClub = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Playing_card_club_3.svg/1024px-Playing_card_club_3.svg.png"
-let fourClub =
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Playing_card_club_4.svg/1024px-Playing_card_club_4.svg.png"
-let fiveClub="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Playing_card_club_5.svg/1024px-Playing_card_club_5.svg.png"
-let sixClub="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Playing_card_club_6.svg/1024px-Playing_card_club_6.svg.png"
-let sevenClub="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Playing_card_club_7.svg/1024px-Playing_card_club_7.svg.png"
-let eightClub="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Playing_card_club_8.svg/1024px-Playing_card_club_8.svg.png"
-let nineClub = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Playing_card_club_9.svg/1024px-Playing_card_club_9.svg.png"
-let tenClub="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Playing_card_club_10.svg/1024px-Playing_card_club_10.svg.png"
-let jackClub="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Playing_card_club_J.svg/1024px-Playing_card_club_J.svg.png"
-let queenClub="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Playing_card_club_Q.svg/1024px-Playing_card_club_Q.svg.png"
-let kingClub="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Playing_card_club_K.svg/1024px-Playing_card_club_K.svg.png"
-let aceDiamond="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Playing_card_diamond_A.svg/1024px-Playing_card_diamond_A.svg.png"
-let twoDiamond="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Playing_card_diamond_2.svg/1024px-Playing_card_diamond_2.svg.png"
-let threeDiamond="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Playing_card_diamond_3.svg/1024px-Playing_card_diamond_3.svg.png"
-let fourDiamond="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Playing_card_diamond_4.svg/1024px-Playing_card_diamond_4.svg.png"
-let fiveDiamond="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Playing_card_diamond_5.svg/1024px-Playing_card_diamond_5.svg.png"
-let sixDiamond="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Playing_card_diamond_6.svg/1024px-Playing_card_diamond_6.svg.png"
-let sevenDiamond="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Playing_card_diamond_7.svg/1024px-Playing_card_diamond_7.svg.png"
-let eightDiamond="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Playing_card_diamond_8.svg/1024px-Playing_card_diamond_8.svg.png"
-let nineDiamond="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Playing_card_diamond_9.svg/1024px-Playing_card_diamond_9.svg.png"
-let tenDiamond="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Playing_card_diamond_10.svg/1024px-Playing_card_diamond_10.svg.png"
-let jackDiamond="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Playing_card_diamond_J.svg/1024px-Playing_card_diamond_J.svg.png"
-let queenDiamond="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Playing_card_diamond_Q.svg/1024px-Playing_card_diamond_Q.svg.png"
-let kingDiamond= "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Playing_card_diamond_K.svg/1024px-Playing_card_diamond_K.svg.png"
-let aceHeart="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Playing_card_heart_A.svg/1024px-Playing_card_heart_A.svg.png"
-let twoHeart="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Playing_card_heart_2.svg/1024px-Playing_card_heart_2.svg.png"
-let threeHeart="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Playing_card_heart_3.svg/1024px-Playing_card_heart_3.svg.png"
-let fourHeart="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Playing_card_heart_4.svg/1024px-Playing_card_heart_4.svg.png"
-let fiveHeart="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Playing_card_heart_5.svg/1024px-Playing_card_heart_5.svg.png"
-let sixHeart="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Playing_card_heart_6.svg/1024px-Playing_card_heart_6.svg.png"
-let sevenHeart="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Playing_card_heart_7.svg/1024px-Playing_card_heart_7.svg.png"
-let eightHeart="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Playing_card_heart_8.svg/1024px-Playing_card_heart_8.svg.png"
-let nineHeart="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Playing_card_heart_9.svg/1024px-Playing_card_heart_9.svg.png"
-let tenHeart="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Playing_card_heart_10.svg/1024px-Playing_card_heart_10.svg.png"
-let jackHeart="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Playing_card_heart_J.svg/1024px-Playing_card_heart_J.svg.png"
-let queenHeart="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Playing_card_heart_Q.svg/1024px-Playing_card_heart_Q.svg.png"
-let kingHeart="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Playing_card_heart_K.svg/1024px-Playing_card_heart_K.svg.png"
-let aceSpade = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Playing_card_spade_A.svg/1024px-Playing_card_spade_A.svg.png"
-let twoSpade="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Playing_card_spade_2.svg/1024px-Playing_card_spade_2.svg.png"
-let threeSpade="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Playing_card_spade_3.svg/1024px-Playing_card_spade_3.svg.png"
-let fourSpade="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Playing_card_spade_4.svg/1024px-Playing_card_spade_4.svg.png"
-let fiveSpade="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Playing_card_spade_5.svg/1024px-Playing_card_spade_5.svg.png"
-let sixSpade="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Playing_card_spade_6.svg/1024px-Playing_card_spade_6.svg.png"
-let sevenSpade="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Playing_card_spade_7.svg/1024px-Playing_card_spade_7.svg.png"
-let eightSpade="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Playing_card_spade_8.svg/1024px-Playing_card_spade_8.svg.png"
-let nineSpade="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Playing_card_spade_9.svg/1024px-Playing_card_spade_9.svg.png"
-let tenSpade="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Playing_card_spade_10.svg/1024px-Playing_card_spade_10.svg.png"
-let jackSpade="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Playing_card_spade_J.svg/1024px-Playing_card_spade_J.svg.png"
-let queenSpade="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Playing_card_spade_Q.svg/1024px-Playing_card_spade_Q.svg.png"
-let kingSpade="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Playing_card_spade_K.svg/1024px-Playing_card_spade_K.svg.png"
-let cardLinks = [aceClub,twoClub,threeClub,fourClub,fiveClub,sixClub,sevenClub,eightClub,nineClub,tenClub,jackClub,queenClub,kingClub,aceDiamond,twoDiamond,threeDiamond,fourDiamond,fiveDiamond,sixDiamond,sevenDiamond,eightDiamond,nineDiamond,tenDiamond,jackDiamond,queenDiamond,kingDiamond,aceHeart,twoHeart,threeHeart,fourHeart,fiveHeart,sixHeart,sevenHeart,eightHeart,nineHeart,tenHeart,jackHeart,queenHeart,kingHeart,aceSpade,twoSpade,threeSpade,fourSpade,fiveSpade,sixSpade,sevenSpade,eightSpade,nineSpade,tenSpade,jackSpade,queenSpade,kingSpade];
+const aceClub = "images/aceClub.png",
+twoClub = "images/twoClub.png",
+threeClub = "images/threeClub.png",
+fourClub = "images/fourClub.png",
+fiveClub = "images/fiveCLub.png",
+sixClub = "images/sixClub.png",
+sevenClub = "images/sevenClub.png",
+eightClub = "images/eightCLub.png",
+nineClub = "images/nineClub.png",
+tenClub = "images/tenClub.png",
+jackClub = "images/jackClub.png",
+queenClub = "images/queenClub.png",
+kingClub = "images/kingClub.png",
+aceDiamond = "images/aceDiamond.png",
+twoDiamond = "images/twoDiamond.png",
+threeDiamond = "images/threeDiamond.png",
+fourDiamond = "images/fourDiamond.png",
+fiveDiamond = "images/fiveDiamond.png",
+sixDiamond = "images/sixDiamond.png",
+sevenDiamond = "images/sevenDiamond.png",
+eightDiamond = "images/eightDiamond.png",
+nineDiamond = "images/nineDiamond.png",
+tenDiamond = "images/tenDiamond.png",
+jackDiamond = "images/jackDiamond.png",
+queenDiamond = "images/queenDiamond.png",
+kingDiamond = "images/kingDiamond.png",
+aceHeart = "images/aceHeart.png",
+twoHeart = "images/twoHeart.png",
+threeHeart = "images/threeHeart.png",
+fourHeart = "images/fourHeart.png",
+fiveHeart = "images/fiveHeart.png",
+sixHeart = "images/sixHeart.png",
+sevenHeart = "images/sevenHeart.png",
+eightHeart = "images/eightHeart.png",
+nineHeart = "images/nineHeart.png",
+tenHeart = "images/tenHeart.png",
+jackHeart = "images/jackHeart.png",
+queenHeart = "images/queenHeart.png",
+kingHeart = "images/kingHeart.png",
+aceSpade = "images/aceSpade.png",
+twoSpade = "images/twoSpade.png",
+threeSpade = "images/threeSpade.png",
+fourSpade = "images/fourSpade.png",
+fiveSpade = "images/fiveSpade.png",
+sixSpade = "images/sixSpade.png",
+sevenSpade = "images/sevenSpade.png",
+eightSpade = "images/eightSpade.png",
+nineSpade = "images/nineSpade.png",
+tenSpade = "images/tenSpade.png",
+jackSpade = "images/jackSpade.png",
+queenSpade = "images/queenSpade.png",
+kingSpade = "images/kingSpade.png",
+cardLinks = [aceClub,twoClub,threeClub,
+  fourClub,fiveClub,sixClub,sevenClub,eightClub,
+  nineClub,tenClub,jackClub,queenClub,kingClub,
+  aceDiamond,twoDiamond,threeDiamond,fourDiamond,
+  fiveDiamond,sixDiamond,sevenDiamond,eightDiamond,
+  nineDiamond,tenDiamond,jackDiamond,queenDiamond,
+  kingDiamond,aceHeart,twoHeart,threeHeart,fourHeart,
+  fiveHeart,sixHeart,sevenHeart,eightHeart,nineHeart,
+  tenHeart,jackHeart,queenHeart,kingHeart,aceSpade,
+  twoSpade,threeSpade,fourSpade,fiveSpade,sixSpade,
+  sevenSpade,eightSpade,nineSpade,tenSpade,jackSpade,
+  queenSpade,kingSpade];
 
-var money = 100
-var dpulledCards = []
-var pPulledCards = []
-var dScore = 0
-var pScore = 0
-var bet = 0
-var aceUsed = []
-var extra = 0
-var extraD = 0
+var money = 100;
+var dpulledCards = [];
+var pPulledCards = [];
+var dScore = 0;
+var pScore = 0;
+var bet = 0;
+var aceUsed = [];
+var extra = 0;
+var extraD = 0;
 
 function cardPull(i) {
-  let max = 51
-  var random = 0
+  let max = 51;
+  var random = 0;
   function pull() {
      random = Math.floor(Math.random() * (max)) + 1; 
   if (dPulledCards.includes(random) || pPulledCards.includes(random)) {
-    pull()
+    pull();
   }
 }
   pull();
   if (i == "d") {
   dPulledCards.push(random);
   } else {
-    pPulledCards.push(random)
+    pPulledCards.push(random);
   }
   return random;
 }
@@ -199,7 +209,7 @@ function betButton() {
   document.getElementById("dExtra3").style.width = "0px"
   document.getElementById("dExtra4").src=""
   document.getElementById("dExtra4").style.width = "0px"
-  document.getElementById("dLeft").src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-2_1024x1024.png?v=1535755695"
+  document.getElementById("dLeft").src="images/cardBack.png"
   aceUsed = []
   pScore = 0
   dScore = 0
@@ -271,10 +281,10 @@ function againButton() {
   dPulledCards = []
   pPulledCards = []
   document.getElementById("pActions").style.opacity = 1
-  document.getElementById("dLeft").src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-2_1024x1024.png?v=1535755695";
-  document.getElementById("dRight").src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-2_1024x1024.png?v=1535755695";
-  document.getElementById("pRight").src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-2_1024x1024.png?v=1535755695";
-  document.getElementById("pLeft").src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-2_1024x1024.png?v=1535755695";
+  document.getElementById("dLeft").src= "images/cardBack.png";
+  document.getElementById("dRight").src= "images/cardBack.png";
+  document.getElementById("pRight").src= "images/cardBack.png";
+  document.getElementById("pLeft").src= "images/cardBack.png";
   document.getElementById("pCount").innerHTML = "0"
   document.getElementById("dCount").innerHTML = "0"
   document.getElementById("betIn").value = ""
