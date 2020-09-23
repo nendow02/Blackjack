@@ -4,4 +4,4 @@
 
 This is a website that allows you to play a simplified version of Blackjack. You bet an amount of money
 then once dealt cards, you can decide to either take another card or stand. The game ends once you lose
-all of your money.
+all of your money. Click [here](https://nendow02.github.io/Blackjack/) to play.
